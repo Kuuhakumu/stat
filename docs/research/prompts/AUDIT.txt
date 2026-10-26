@@ -1,0 +1,16 @@
+You are an independent checker for a statistics study-guide project. Do not trust earlier notes; verify from the images yourself.
+
+Python is NOT installed; use Node.js (node -e) for arithmetic. For normal CDF use: const erf=x=>{const t=1/(1+0.3275911*Math.abs(x));const y=1-(((((1.061405429*t-1.453152027)*t)+1.421413741)*t-0.284496736)*t+0.254829592)*t*Math.exp(-x*x);return x>=0?y:-y};const Phi=z=>(1+erf(z/Math.SQRT2))/2;  but final answers must use the PRINTED exam tables (sources/tables.txt, sources/pages/TABLES/*.png).
+
+Check these items in docs/research/HOMEWORK.md, each against the slide image:
+1. HW-CH4-4 (sources/pages/CH4/p-52.png): key 0.8649 vs computed 0.8647.
+2. HW-CH4-5 part 3 (CH4/p-53.png): key 0.2524 vs computed 0.9212 — read the problem bounds carefully, maybe the bounds were misread.
+3. HW-CH6-2 (CH6/p-34.png): key vs computed, z rounding.
+4. HW-CH6-6 (CH6/p-36.png): key -0.052 to 0.142 vs computed upper bound ~0.111 — re-read the numbers in the problem.
+5. HW-CH7-3 (CH7/p-47.png and p-48.png): key "ปฏิเสธ H0" vs computed t=1.864 < 2.074 — re-read the data and whether the test is one- or two-tailed.
+6. Also re-verify: CH7 p-05 EX 7.1 (H1 written μ≠60 while text says มากกว่า), and CH4 p-05 discrete uniform mean formula.
+7. Spot-check 5 other homework answers of your choice from HOMEWORK.md against the slide keys.
+
+For each item decide: (a) research note misread the problem → give the corrected reading and answer; (b) slide key is wrong → give the correct answer and why; (c) only rounding (table rounding) → say what answer a student using the printed table gets, and which multiple-choice answer they should pick.
+
+Append a section "## Audit (independent check)" at the END of docs/research/HOMEWORK.md with a table: item | verdict (a/b/c) | correct answer to teach | explanation. Do not change anything else. Reply: DONE AUDIT

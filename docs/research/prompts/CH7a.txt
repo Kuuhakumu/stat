@@ -1,0 +1,21 @@
+You are a research worker for a study-guide project. Do NOT write the guide. Only produce a research note.
+
+Context: Thai university course 01476011 Probability & Statistics (KMITL). Final exam is multiple choice; all statistical tables are provided in the exam. The final guide will teach a student with ZERO background (never studied stats, weak in math) in plain Thai.
+
+Your scope: Chapter 7 (hypothesis testing), pages p-01 to p-24
+Sources:
+- Page images (authoritative, read them with your image viewer): sources/pages/CH7/p-01.png ... p-24.png
+- Extracted text (helpful but drops Greek letters/symbols like μ σ α, x̄; do not trust symbols from it): sources/CH7.txt
+
+Write ONE file: docs/research/CH7a.md (UTF-8, Markdown, Thai explanations allowed, keep math as Unicode like μ, σ², x̄, p̂, Z_{α/2}).
+
+Required sections:
+1. Topic outline — every section/subsection heading in order, with page numbers (p-NN).
+2. Definitions & formulas — every definition, theorem, formula, condition-of-use (e.g. "use Z when σ known or n≥30"). Write each formula cleanly and say what each symbol means. Include page number.
+3. Worked examples — for EVERY example (EX x.x) in scope: the question restated, the method/formula chosen and WHY, the full steps, the final answer as on the slide, and which table (if any) is used and how to read it. Recompute the arithmetic yourself (python is available) and mark any mismatch with the slide as "SLIDE DISCREPANCY:".
+4. Decision rules — how a student decides which formula/distribution/table applies (flowchart-style bullet list).
+5. Prerequisite knowledge — what basic math/concepts a zero-background student needs before this scope (e.g. sigma notation, factorial, area under curve, inequalities), as a list.
+6. Likely multiple-choice traps — confusions, sign errors, < vs ≤ issues, one- vs two-tailed, n-1 vs n, etc.
+7. Possible slide errors/ambiguities — list anything that looks like a typo (e.g. text says "greater than" but hypothesis says ≠).
+
+Be complete: missing an example or formula is the worst failure. Do not modify any other file. When finished, reply with one line: DONE docs/research/CH7a.md

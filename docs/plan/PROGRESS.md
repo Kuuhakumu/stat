@@ -1,0 +1,106 @@
+# PROGRESS
+
+Run top to bottom. One task = one fresh Codex session. The runner picks the first unchecked line.
+
+## Tasks
+
+- [x] RES Research notes (planning session, GPT 6.1 sol) — docs/research/
+- [x] T00 — Project setup + validator
+- [x] T01 — write `beginner/before-you-start.md`
+- [x] T02 — write `beginner/00-concept-map.md`
+- [x] T03 — write `beginner/01-math-toolkit.md`
+- [x] T04 — write `beginner/02-probability-and-random-variables.md`
+- [x] T05 — write `beginner/03-discrete-uniform-and-bernoulli.md`
+- [x] T06 — write `beginner/04-binomial.md`
+- [x] T07 — write `beginner/05-poisson.md`
+- [x] T08 — write `beginner/06-continuous-uniform-and-exponential.md`
+- [x] T09 — write `beginner/07-normal-and-z-table.md`
+- [x] T10 — write `beginner/08-normal-word-problems.md`
+- [x] T11 — write `beginner/09-homework-ch4.md` (guided homework, CH4)
+- [x] R1 — Review phase: CH4 distributions (lessons beginner/03-*.md … beginner/09-*.md)
+- [x] T12 — write `beginner/10-sampling-and-statistics.md`
+- [x] T13 — write `beginner/11-sampling-distribution-of-mean.md`
+- [x] T14 — write `beginner/12-t-distribution.md`
+- [x] T15 — write `beginner/13-sampling-distribution-of-proportion.md`
+- [x] T16 — write `beginner/14-difference-of-two-means.md`
+- [x] T17 — write `beginner/15-difference-of-two-proportions.md`
+- [x] R2 — Review phase: CH5 sampling distributions (lessons beginner/10-*.md … beginner/15-*.md)
+- [x] T18 — write `beginner/16-estimation-basics.md`
+- [x] T19 — write `beginner/17-ci-one-mean.md`
+- [x] T20 — write `beginner/18-ci-one-proportion.md`
+- [x] T21 — write `beginner/19-ci-two-means.md`
+- [x] T22 — write `beginner/20-ci-paired-and-two-proportions.md`
+- [x] T23 — write `beginner/21-homework-ch6.md` (guided homework, CH6 (uses CH5 + CH6 skills))
+- [x] R3 — Review phase: CH6 estimation (lessons beginner/16-*.md … beginner/21-*.md)
+- [x] T24 — write `beginner/22-hypothesis-testing-idea.md`
+- [x] T25 — write `beginner/23-test-one-mean.md`
+- [x] T26 — write `beginner/24-test-one-proportion.md`
+- [x] T27 — write `beginner/25-test-two-means.md`
+- [x] T28 — write `beginner/26-test-paired.md`
+- [x] T29 — write `beginner/27-test-two-proportions.md`
+- [x] T30 — write `beginner/28-homework-ch7.md` (guided homework, CH7)
+- [x] R4 — Review phase: CH7 hypothesis testing (lessons beginner/22-*.md … beginner/28-*.md)
+- [x] T31 — write `beginner/tables-guide.md`
+- [x] T32 — write `beginner/formula-sheet.md`
+- [x] T33 — write `beginner/29-choose-the-right-formula.md`
+- [x] T34 — write `beginner/glossary.md`
+- [x] T35 — write `beginner/30-exam-rehearsal.md`
+- [x] T36 — write `beginner/31-exam-rehearsal-b.md`
+- [x] T37 — write `beginner/32-solo-homework.md`
+- [x] T38 — write `beginner/last-few-hours.md`
+- [x] T39 — write `beginner/slide-coverage.md` (proof nothing is missing)
+- [x] T40 — final README files
+- [x] T41 — full audit: read the whole guide as a beginner
+- [x] T42 — fix the T41 audit findings
+- [ ] T43 — prepare and publish to GitHub (needs the user)
+
+## Log
+
+- 2026-10-25 RES: 9 research notes + HOMEWORK.md written by GPT 6.1 sol; Python not installed (use Node.js); issues: see PLAN.md 'Known slide issues'
+- 2026-10-25 T00: added route placeholders and the PowerShell validator; issues: none
+- 2026-10-25 T01: wrote the Thai before-you-start lesson with study passes, exam tables, calculator checklist, schedule, and practice; issues: none
+- 2026-10-25 T02: wrote the Thai factory story concept map linking CH4 through CH7 with a six-question chapter quiz; issues: none
+- 2026-10-25 T03: wrote the Thai math toolkit with calculator steps, slide examples, and 12 drills; issues: none
+- 2026-10-25 T04: wrote the Thai lesson on probability, random variables, discrete and continuous distributions, expectation, variance, and standard deviation; issues: none
+- 2026-10-25 T05: wrote the Thai lesson on discrete uniform and Bernoulli distributions with slide examples, corrections, and closed-book practice; issues: none
+- 2026-10-25 T06: wrote the Thai binomial lesson with EX 4.4–4.7, cumulative-table translations, and new closed-book practice; issues: EX 4.7 table-rounded profit differs from exact calculation
+- 2026-10-25 T07: wrote the Thai Poisson lesson with EX 4.8–4.12, table-reading, rescaling, approximation, and new practice; issues: none
+- 2026-10-25 T08: wrote the Thai continuous uniform and exponential lesson with EX 4.13–4.16, conditional probability, and new practice; issues: none
+- 2026-10-25 T09: wrote the Thai normal and Z-table lesson with EX 4.17/4.20, table-area rules, and new practice; issues: EX 4.20(4) requires an unstated symmetry assumption
+- 2026-10-25 T10: wrote the Thai normal word-problem lesson with EX 4.18/4.19/4.21, a reusable five-step method, and new practice; issues: none
+- 2026-10-25 T11: wrote guided solutions for all nine CH4 homework problems from p-51–p-55 with table lookups and mismatch warnings; issues: HW-CH4-4 table approximation differs from exact slide key, HW-CH4-5.3 slide key is wrong, HW-CH4-7 slide interpolates while the table rule uses rounded z
+- 2026-10-25 R1: reviewed CH4 lessons 03–09 against slide pages, research notes, Node.js calculations, and printed tables; fixed formula coverage, symbol explanations, and homework ambiguity warnings; issues: none
+- 2026-10-25 T12: wrote the Thai CH5 sampling and population/statistic lesson with EX 5.1–5.3 and concept practice; issues: none
+- 2026-10-25 T13: wrote the Thai sampling distribution of the mean lesson with CLT, Z cases, EX 5.4/5.5/5.8, and new practice; issues: EX 5.5 p-29 variance interpreted as known σ²
+- 2026-10-25 T14: wrote the Thai t-distribution lesson with t-table reading, EX 5.5/5.6/5.7, decision rules, and new practice; issues: none
+- 2026-10-25 T15: wrote the Thai sampling-distribution-of-proportion lesson with p̂ formulas, EX 5.9/5.10, table lookups, and new practice; issues: none
+- 2026-10-25 T16: wrote the Thai two-independent-means lesson with Z, pooled t, Welch t, EX 5.11–5.15, and new practice; issues: EX 5.12 has n₁=25, below the slide’s stated n₁,n₂≥30 Z condition
+- 2026-10-26 T17: wrote the Thai two-proportion-difference lesson with EX 5.16, Z-table reading, practice, and CH5 summary table; issues: p-54 uses estimated p̂ standard errors while EX 5.16 uses known p values
+- 2026-10-26 R2: reviewed CH5 lessons 10–15 against slide images, research notes, Node.js calculations, and printed tables; fixed symbol-order clarity and recorded all slide ambiguities; issues: validator warnings only for planned future links
+- 2026-10-26 T18: wrote the Thai estimation-basics lesson with point/interval estimates, confidence levels, Z-table reading, EX 6.1–6.2, and new practice; issues: none
+- 2026-10-26 T19: wrote the Thai one-mean confidence interval lesson with three Z/t cases, EX 6.3–6.5, and practice; issues: CH6 p-12 heading and theorem assumptions conflict
+- 2026-10-26 T20: wrote the Thai one-proportion confidence interval lesson with EX 6.6, table reading, traps, and new practice; issues: none
+- 2026-10-26 T21: wrote the Thai two-means confidence-interval lesson with Z, pooled t, Welch t, EX 6.7–6.9, and new practice; issues: EX 6.9 Welch ν=7.435 is mapped to printed table row ν=7
+- 2026-10-26 T22: wrote the Thai paired-data and two-proportion confidence-interval lesson with EX 6.10–6.11 and CH6 formula summary; issues: none
+- 2026-10-26 T23: wrote guided Thai solutions for all six CH6 homework problems on p-34–p-36 with table lookups and mismatch warnings; issues: HW-CH6-2 requires printed-table z rounding, HW-CH6-6 slide upper endpoint is wrong
+- 2026-10-26 R3: reviewed CH6 lessons 16–21 against slides, research notes, Node.js calculations, and printed tables; fixed formulas, table-value usage, arithmetic, warnings, symbols, and homework MCQs; issues: validator warnings only for planned future links
+- 2026-10-26 T24: wrote the Thai hypothesis-testing lesson with corrected EX 7.1 hypotheses, error types, tails, p-values, and practice; issues: none
+- 2026-10-26 T25: wrote the Thai one-mean hypothesis-test lesson with Z/t selection, EX 7.4–7.7, both decision methods, and new practice; issues: none
+- 2026-10-26 T26: wrote the Thai one-proportion hypothesis-test lesson with p₀ standard error, EX 7.8–7.9, Z-table reading, and new practice; issues: none
+- 2026-10-26 T27: wrote the Thai two-means hypothesis-test lesson with Z, pooled t, Welch t, EX 7.10–7.12, and new practice; issues: EX 7.12 wording and α are unspecified, so the lesson states its interpretation and assumed α
+- 2026-10-26 T28: wrote the Thai paired-test lesson with direction choice, EX 7.13–7.14, table reading, and new practice; issues: examples omit α and answers, and p-39 uses μ_D where calculation under H₀ uses D₀
+- 2026-10-26 T29: wrote the Thai two-proportion hypothesis-test lesson with pooled/separate Z, EX 7.15–7.16, practice, and CH7 summary table; issues: EX 7.15 wording and small success counts are ambiguous
+- 2026-10-26 T30: wrote guided Thai solutions for all CH7 homework problems with table lookups and the HW-CH7-3 key mismatch warning; issues: HW-CH7-7.16 is the exercise immediately before the p-46–p-48 homework pages
+- 2026-10-26 R4: reviewed CH7 lessons against slide images, research notes, Node.js calculations, and printed tables; fixed arithmetic, alpha comparisons, beginner wording, and slide warnings; issues: none
+- 2026-10-26 T31: wrote the Thai exam-table guide with printed-value drills, lesson links, and a table-choice flowchart; issues: none
+- 2026-10-26 T32: wrote the compact Thai CH4–CH7 formula sheet with conditions, table pages, and lesson links; issues: CH5 p-54 shows p̂ in the SE while the lesson defines the population-p formula, and CH4 p-43 rounded 68–95–99.7 values differ from Node.js recomputation (both are flagged)
+- 2026-10-26 T33: wrote the Thai method-selection flowchart, keyword dictionary, and 25 source-linked method drills; issues: EX 5.12 follows the slide's stated Z interpretation despite n₁=25, and the ambiguity is documented
+- 2026-10-26 T34: wrote the Thai glossary with 125 linked rows across พื้นฐาน, CH4, CH5, CH6, and CH7; issues: none
+- 2026-10-26 T35: wrote Mock Exam A with 40 new CH4–CH7 multiple-choice questions, printed-table calculations, and linked explanations; issues: none
+- 2026-10-26 T36: wrote Mock Exam B with 40 harder CH4–CH7 questions covering reverse Z lookup, tails, two-sample, Welch, and paired methods; issues: Q3's printed-table answer is 0.5340 while the exact value rounds to 0.5339; no lesson/research conflict affected the new items
+- 2026-10-26 T37: wrote the closed-book worksheet for all 20 CH4–CH7 homework problems with hidden method hints, final answers, lesson links, and a score tracker; issues: followed the reviewed CH4-7 table-rounding answer (0.0764, 0.0222) over the research note's interpolated values (0.0771, 0.0225)
+- 2026-10-26 T38: wrote the Thai last-few-hours route with the short formula flowchart, 12 core formula cards, table recap, 15 traps, six-lesson study order, and exam tactics; issues: none
+- 2026-10-26 T39: added page-by-page CH4–CH7 slide coverage plus all EX and homework links; issues: no EX 7.3 exists in the slides, CH3 out of scope
+- 2026-10-26 T40: wrote the Thai root and beginner route READMEs with time-based paths, complete lesson map, provenance, and reading rules; issues: none
+- 2026-10-26 T41: audited the complete beginner route, re-solved sampled lesson work and 10 questions from each mock with Node.js, and recorded notation/entry-point findings in docs/audit-report.md; issues: 8 issues: 0 wrong-number, 2 unclear, 2 missing, 0 link, 4 style
+- 2026-10-26 T42: fixed all eight T41 audit findings across the beginner lessons and marked each report item fixed; issues: none

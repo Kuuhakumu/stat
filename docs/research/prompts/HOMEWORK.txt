@@ -1,0 +1,22 @@
+You are a research worker for a study-guide project. Do NOT write the guide. Only produce a research note.
+
+Context: Thai university course 01476011 Probability & Statistics (KMITL). Final exam is multiple choice; all statistical tables are provided. The student has ZERO background and has not done any of these homework exercises; they must be able to solve them alone later.
+
+Scope: every exercise (แบบฝึกหัด) problem in the slide decks. The problem statements are IMAGES inside the slides, so read the page images with your image viewer:
+- Chapter 4 exercises: sources/pages/CH4/p-50.png to p-55.png
+- Chapter 6 exercises (also include Chapter 5 sampling-distribution style questions): sources/pages/CH6/p-33.png to p-36.png
+- Chapter 7 exercises: sources/pages/CH7/p-46.png to p-48.png
+Also check pages just before each range in case exercises start earlier. Answer keys "[เฉลย : ...]" appear on the slides.
+Statistical tables for lookups: sources/tables.txt (text) and sources/pages/TABLES/*.png.
+
+Write ONE file: docs/research/HOMEWORK.md (UTF-8 Markdown, Thai OK, math as Unicode μ σ² x̄ p̂ Z_{α/2}).
+
+For EACH exercise problem and sub-question, give:
+- ID like HW-CH4-1.2 and page number
+- Full problem statement transcribed in Thai exactly (with all numbers)
+- Topic / which slide section and formula it uses, and how a student recognises that from the wording (keyword clues)
+- Full step-by-step solution, including table lookups (which table, which row/column, value read)
+- Final answer, and the slide's เฉลย. Recompute with python. If they disagree, write "KEY MISMATCH:" with your reasoning on which is right (consider table rounding).
+At the end: a table of all problems -> topic -> chapter section, and a list of problems you could not read clearly.
+
+Do not modify any other file. When finished, reply with one line: DONE docs/research/HOMEWORK.md
